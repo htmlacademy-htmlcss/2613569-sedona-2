@@ -13,6 +13,7 @@
           <a href="index.html" class="navigation-logo" aria-current="page">
             <img class="navigation-logo-image" alt="Логотип сайта Седона" src="images/logo.svg" width="140" height="70">
           </a>
+
           <ul class="navigation-list">
             <li class="navigation-item">
               <a href="#" class="navigation-link navigation-link--current text-state">Главная</a>
@@ -24,6 +25,7 @@
               <a href="catalog.html" class="navigation-link text-state">Гостиницы</a>
             </li>
           </ul>
+
           <ul class="navigation-user">
             <li class="navigation-item">
               <a href="#" class="navigation-link user-link">
@@ -163,5 +165,58 @@
         </a>
       </footer>
     </div>
-  </body>
+      <div class="modal-wrapper">
+        <div class="modal modal-navigation">
+          <section class="modal-page">
+            <h2 class="modal-title title">Поиск гостиницы в Седоне</h2>
+            <form class="modal-form" action="https://echo.htmlacademy.ru/" method="get">
+              <label for="arrive-day" class="modal-label label-date">Дата Заезда:</label>
+              <input name="arrive-day" id="arrive-day" type="text" class="modal__input" value="27 апреля 2020" placeholder="Укажите дату">
+              <p class="modal-text mistake-text">Мы не можем отправить вас в прошлое.</p>
+              <label for="leave-day" class="modal-label label-date">Дата Выезда:</label>
+              <input name="leave-day" id="leave-day" type="text" class="modal__input" value="1 сентября 2023" placeholder="Укажите дату">
+              <p class="modal-text">На эти даты есть свободные номера. Пока есть.</p>
+              <label for="adult-count" class="modal-label label-adult">Взрослые:</label>
+              <p class="modal-button-wrapper adult-container">
+                <button class="modal-number-button button minus-button" type="button">
+                  <svg class="modal_number-svg" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                    <path fill="currentColor" d="M3 9v2h14V9H3Z"/>
+                  </svg>
+                </button>
+                <input name="adult-count" id="adult-count" type="number" class="number-input" value="2">
+                <button class="modal-number-button button plus-button" type="button">
+                  <svg class="modal_number-svg" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill="currentColor" d="M17 9h-6V3H9v6H3v2h6v6h2v-6h6V9Z"/>
+                  </svg>
+                </button>
+              </p>
+              <p class="tooltip-container">
+                <label for="children-count" class="modal-label label-children">Дети:</label>
+                <span class="tooltip">
+                  <button class="tooltip-toggle" type="button"></button>
+                  <span class="tooltip-text">Укажите количество детей, которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.</span>
+                </span>
+              </p>
+              <p class="modal-button-wrapper children-container">
+                <button class="modal-number-button button minus-button" type="button">
+                  <svg class="modal_number-svg" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill="currentColor" d="M3 9v2h14V9H3Z"/>
+                  </svg>
+                </button>
+                <input name="children-count" id="children-count" type="number" class="number-input" value="2">
+                <button class="modal-number-button button plus-button" type="button">
+                  <svg class="modal_number-svg" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill="currentColor" d="M17 9h-6V3H9v6H3v2h6v6h2v-6h6V9Z"/>
+                  </svg>
+                </button>
+              </p>
+              <button type="submit" class="modal__button-submit button">Найти</button>
+            </form>
+          </section>
+          <button type="button" class="modal__close-button button">
+            <span class="visually-hidden">Закрыть</span>
+          </button>
+        </div>
+      </div>
+    </body>
   </html>
