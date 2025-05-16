@@ -26,7 +26,6 @@ html {
 
 body {
   margin: 0;
-  height: 100%;
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
@@ -468,6 +467,9 @@ body {
   justify-content: center;
   flex-wrap: wrap;
   text-align: center;
+  width: 230px;
+  min-height: 223px;
+
 }
 
 .services-list {
@@ -478,6 +480,7 @@ body {
   min-width: 100%;
   flex-direction: row;
   flex-wrap: wrap;
+  width: 400px;
 }
 
 .services-title {
@@ -502,6 +505,7 @@ body {
   color: #333333;
   position: relative;
   margin: 0 0 64px 0;
+
   color: #333333;
 }
 
