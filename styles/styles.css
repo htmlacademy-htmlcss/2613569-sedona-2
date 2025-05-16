@@ -435,8 +435,6 @@ body {
 .list {
   align-items: center;
   background-color: #ffffff;
-  margin: 0;
-  padding: 0;
   list-style: none;
   display: flex;
   flex-wrap: wrap;
@@ -467,8 +465,6 @@ body {
   justify-content: center;
   flex-wrap: wrap;
   text-align: center;
-  width: 230px;
-  min-height: 223px;
 
 }
 
@@ -480,7 +476,6 @@ body {
   min-width: 100%;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 400px;
 }
 
 .services-title {
@@ -510,7 +505,7 @@ body {
 }
 
 .house-title {
-  margin: 183px 85px 30px;
+  margin: 185px 85px 30px;
 }
 
 .food-title {
