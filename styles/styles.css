@@ -435,6 +435,8 @@ body {
 .list {
   align-items: center;
   background-color: #ffffff;
+  margin: 0;
+  padding: 0;
   list-style: none;
   display: flex;
   flex-wrap: wrap;
@@ -456,15 +458,15 @@ body {
 }
 
 .services-item {
-  max-height: 385px;
-  width: 33.33%;
   display: flex;
   flex-direction: column;
-  align-content: space-between;
+  width: 400px;
+  min-height: 385px;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
-  text-align: center;
+  background-color: rgba(131, 179, 211, 20%);
+
 
 }
 
