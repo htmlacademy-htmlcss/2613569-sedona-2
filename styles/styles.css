@@ -883,8 +883,8 @@ input[type="number"]:focus {
 }
 
 .social-item{
-  padding-top: 5px;
-  padding-left: 5px;
+  padding-top: 8px;
+  padding-left: 3px;
 }
 .social-list {
   display: flex;
