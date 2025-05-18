@@ -121,8 +121,8 @@ body {
   box-sizing: border-box;
   margin-left: 20px;
   margin-bottom: 6px;
-  outline: transparent;
 }
+
 
 .navigation-link--current::before {
   content: "";
@@ -170,12 +170,23 @@ body {
   border-radius: 4px;
 }
 
+.button-brown:focus {
+  outline: none;
+  background-color: #75645c;
+  box-shadow: 0 0 5px  #75645c;
+}
 .button-blue {
   background-color: #82b3d3;
   color: #ffffff;
   border-radius: 4px;
   cursor: pointer;
   padding: 8px;
+}
+
+.button-blue:focus {
+  outline: none;
+  background-color: #82b3d3;
+  box-shadow: 0 0 5px  #82b3d3;
 }
 
 .search-button {
@@ -193,6 +204,11 @@ body {
   cursor: pointer;
   padding: 8px;
   outline:transparent;;
+}
+.button-transparent:focus {
+  outline: none;
+  background-color: transparent;
+  box-shadow: 0 0 5px ;
 }
 
 .button-big {
@@ -262,6 +278,12 @@ body {
   color: #ffffff;
   border-radius: 4px;
   cursor: pointer;
+}
+.button-green:focus {
+  outline: none;
+  background-color: #7db54f;
+  background-color: #7db54f;
+  box-shadow: 0 0 5px;
 }
 
 .button-green:hover {
@@ -1513,6 +1535,13 @@ input[type="number"]:focus {
 
 .pagination-link-state:active {
   color: rgba(255, 255, 255, 0.3);
+}
+
+.pagination-link:focus {
+  outline: none;
+  background-color: #68a2ca;
+  box-shadow: 0 0 5px rgba(104, 148, 195, 0.5);
+
 }
 
 .stars {
