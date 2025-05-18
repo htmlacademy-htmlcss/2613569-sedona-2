@@ -754,7 +754,6 @@ body {
 .modal__input {
   padding: 12px 20px;
   font-family: "PT Sans", sans-serif;
-
 }
 
 .modal-number-button {
@@ -883,6 +882,10 @@ input[type="number"]:focus {
   flex-wrap: wrap;
 }
 
+.social-item{
+  padding-top: 5px;
+  padding-left: 5px;
+}
 .social-list {
   display: flex;
   width: 256px;
