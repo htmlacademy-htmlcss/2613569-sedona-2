@@ -600,6 +600,7 @@ body {
 .subscribe-page-catalog {
   background-color: #ffffff;
   background-size: 100% auto;
+  padding-top: 64px;;
 }
 
 .subscribe {
