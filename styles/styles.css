@@ -54,7 +54,6 @@ body {
   box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
 }
 
-/*Navigation*/
 .navigation-link {
   display: block;
   color: #000000;
@@ -122,7 +121,7 @@ body {
   box-sizing: border-box;
   margin-left: 20px;
   margin-bottom: 6px;
-  outline: none;
+  outline: transparent;
 }
 
 .navigation-link--current::before {
@@ -163,14 +162,12 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   text-decoration: none;
-  outline: none;
 }
 
 .button-brown {
   color: #ffffff;
   background-color: #756157;
   border-radius: 4px;
-  outline: none;
 }
 
 .button-blue {
@@ -179,7 +176,6 @@ body {
   border-radius: 4px;
   cursor: pointer;
   padding: 8px;
-  outline: none;
 }
 
 .search-button {
@@ -188,7 +184,7 @@ body {
   display: block;
   cursor: pointer;
   min-width: 376px;
-  outline: none;
+  outline:transparent;;
 }
 
 .button-transparent {
@@ -196,7 +192,7 @@ body {
   color: #ffffff;
   cursor: pointer;
   padding: 8px;
-  outline: none;
+  outline:transparent;;
 }
 
 .button-big {
@@ -496,7 +492,6 @@ body {
   color: #000000;
   margin: 0 0 20px 0;
   margin-bottom: 45px;
-  ;
   padding-top: 15px;
 }
 
@@ -522,7 +517,6 @@ body {
 .present-title {
   margin: 150px 85px 22px;
 }
-
 
 .first {
   background-image: url("../images/icon/house.png");
@@ -585,7 +579,6 @@ body {
   background-color: #ffffff;
   background-size: 100% auto;
   padding-top: 64px;
-  ;
 }
 
 .subscribe {
@@ -862,7 +855,7 @@ input[type="number"]:focus {
 }
 
 .social-item-catalog {
-  padding-top: 10px;
+  padding-top: 13px;
   padding-left: 3px;
 }
 
@@ -1501,7 +1494,7 @@ input[type="number"]:focus {
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
-  outline: none;
+  outline: transparent;
 }
 
 .pagination-link--current {
