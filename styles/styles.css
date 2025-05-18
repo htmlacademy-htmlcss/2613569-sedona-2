@@ -1257,9 +1257,9 @@ input[type="number"]:focus {
 }
 
 .sorting__result {
-  padding: 50px 70px 40px;
   align-self: center;
   margin: 0;
+  padding: 0;
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
