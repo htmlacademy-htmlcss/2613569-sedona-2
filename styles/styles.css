@@ -54,7 +54,6 @@ body {
   box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
 }
 
-/*Navigation*/
 .navigation-link {
   display: block;
   color: #000000;
@@ -122,8 +121,8 @@ body {
   box-sizing: border-box;
   margin-left: 20px;
   margin-bottom: 6px;
-  outline: none;
 }
+
 
 .navigation-link--current::before {
   content: "";
@@ -163,23 +162,31 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   text-decoration: none;
-  outline: none;
 }
 
 .button-brown {
   color: #ffffff;
   background-color: #756157;
   border-radius: 4px;
-  outline: none;
 }
 
+.button-brown:focus {
+  outline: none;
+  background-color: #75645c;
+  box-shadow: 0 0 5px  #75645c;
+}
 .button-blue {
   background-color: #82b3d3;
   color: #ffffff;
   border-radius: 4px;
   cursor: pointer;
   padding: 8px;
+}
+
+.button-blue:focus {
   outline: none;
+  background-color: #82b3d3;
+  box-shadow: 0 0 5px  #82b3d3;
 }
 
 .search-button {
@@ -188,7 +195,7 @@ body {
   display: block;
   cursor: pointer;
   min-width: 376px;
-  outline: none;
+  outline:transparent;;
 }
 
 .button-transparent {
@@ -196,7 +203,12 @@ body {
   color: #ffffff;
   cursor: pointer;
   padding: 8px;
+  outline:transparent;;
+}
+.button-transparent:focus {
   outline: none;
+  background-color: transparent;
+  box-shadow: 0 0 5px ;
 }
 
 .button-big {
@@ -266,6 +278,12 @@ body {
   color: #ffffff;
   border-radius: 4px;
   cursor: pointer;
+}
+.button-green:focus {
+  outline: none;
+  background-color: #7db54f;
+  background-color: #7db54f;
+  box-shadow: 0 0 5px;
 }
 
 .button-green:hover {
@@ -496,7 +514,6 @@ body {
   color: #000000;
   margin: 0 0 20px 0;
   margin-bottom: 45px;
-  ;
   padding-top: 15px;
 }
 
@@ -522,7 +539,6 @@ body {
 .present-title {
   margin: 150px 85px 22px;
 }
-
 
 .first {
   background-image: url("../images/icon/house.png");
@@ -585,7 +601,6 @@ body {
   background-color: #ffffff;
   background-size: 100% auto;
   padding-top: 64px;
-  ;
 }
 
 .subscribe {
@@ -862,7 +877,7 @@ input[type="number"]:focus {
 }
 
 .social-item-catalog {
-  padding-top: 10px;
+  padding-top: 13px;
   padding-left: 3px;
 }
 
@@ -1501,7 +1516,7 @@ input[type="number"]:focus {
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
-  outline: none;
+  outline: transparent;
 }
 
 .pagination-link--current {
@@ -1520,6 +1535,13 @@ input[type="number"]:focus {
 
 .pagination-link-state:active {
   color: rgba(255, 255, 255, 0.3);
+}
+
+.pagination-link:focus {
+  outline: none;
+  background-color: #68a2ca;
+  box-shadow: 0 0 5px rgba(104, 148, 195, 0.5);
+
 }
 
 .stars {
