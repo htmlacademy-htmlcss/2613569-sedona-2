@@ -1,8 +1,8 @@
 # Личный проект «Седона»
 
 * Студент: [Natalia Volkova](https://up.htmlacademy.ru/htmlcss-individual/2/user/2613569).
-* Наставник: [Кенан Агаев](https://htmlacademy.ru/profile/kenakula)
-* Мой сайт: [Мой проект Седона](https://heynats0604.github.io/2613569-sedona-2/)
+* Наставник: `Неизвестно`.
+
 ---
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
