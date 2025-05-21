@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML Academy Седона - Nataly Volkova</title>
+     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
     <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body class="page-body">
@@ -170,10 +171,10 @@
           <h2 class="modal-title title">Поиск гостиницы в Седоне</h2>
           <form class="modal-form" action="https://echo.htmlacademy.ru/" method="get">
             <label for="arrive-day" class="modal-label label-date">Дата Заезда:</label>
-            <input name="arrive-day" id="arrive-day" type="text" class="modal__input" value="27 апреля 2020" placeholder="Укажите дату">
+            <input name="arrive-day" id="arrive-day" type="text" class="modal__input" value="27 апреля 2020" placeholder="Укажите дату" required >
             <p class="modal-text mistake-text">Мы не можем отправить вас в прошлое.</p>
             <label for="leave-day" class="modal-label label-date">Дата Выезда:</label>
-            <input name="leave-day" id="leave-day" type="text" class="modal__input" value="1 сентября 2023" placeholder="Укажите дату">
+            <input name="leave-day" id="leave-day" type="text" class="modal__input" value="1 сентября 2023" placeholder="Укажите дату" required >
             <p class="modal-text">На эти даты есть свободные номера. Пока есть.</p>
             <label for="adult-count" class="modal-label label-adult">Взрослые:</label>
             <p class="modal-button-wrapper adult-container">

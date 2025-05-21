@@ -117,12 +117,11 @@ body {
 .navigation-button {
   display: block;
   padding: 8px 34px;
-  min-width: 160px;
+  width: 160px;
   box-sizing: border-box;
   margin-left: 20px;
   margin-bottom: 6px;
 }
-
 
 .navigation-link--current::before {
   content: "";
